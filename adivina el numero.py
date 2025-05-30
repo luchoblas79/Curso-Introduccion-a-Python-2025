@@ -11,7 +11,7 @@ while intentos < 5:
     valor = entrada.isdigit()
     if valor == True:
         entrada = int(entrada)
-        if entrada < 1 or entrada > 20:
+        if entrada < 1 or entrada > 50:
             print("El numero debe ser entre 1 y 50.")
         elif entrada < numero_secreto:
             print("El número es mayor que", entrada)
