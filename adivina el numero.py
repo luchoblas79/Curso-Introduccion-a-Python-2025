@@ -1,18 +1,18 @@
 import random
 print("Bienvenido al juego de adivinar el numero!")
-print("Estoy pensando en un número entre 1 y 20.")
-numero_secreto = random.randint(1, 20)
+print("Estoy pensando en un número entre 1 y 50.")
+numero_secreto = random.randint(1, 50)
 intentos = 0
 valor = True
 while intentos < 5:
     print("Tienes", 5 - intentos, "intentos restantes.")
-    entrada = input("Ingresa un numero entre 1 y 20: ")
+    entrada = input("Ingresa un numero entre 1 y 50: ")
     intentos += 1
     valor = entrada.isdigit()
     if valor == True:
         entrada = int(entrada)
         if entrada < 1 or entrada > 20:
-            print("El numero debe ser entre 1 y 20.")
+            print("El numero debe ser entre 1 y 50.")
         elif entrada < numero_secreto:
             print("El número es mayor que", entrada)
         elif entrada > numero_secreto:
