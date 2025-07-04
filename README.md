@@ -1,11 +1,11 @@
-BLAS LUCIANO S.
+Luciano S. Blas
 DNI 27.213.495
 luchoblas@gmail.com
 
 Cynthia Domínguez 
-28090643
+DNI 28.090.643
 cynet80@yahoo.com.ar
 
 Pablo Ezequiel Bonatti 
-38862692
+DNI 38.862.692
 Pabloebonatti@live.com.ar
